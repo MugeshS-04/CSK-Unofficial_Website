@@ -8,15 +8,15 @@ function Navbar() {
       {/* Left side - Logo and Title */}
         <div className='flex items-center gap-1'>
           <img className='w-24 h-auto' src={logo} alt="CSK Logo" />
-          <h1 className='inria-sans ml-4 text-3xl'>Chennai Super Kings</h1>
+          <h1 className='inria-sans ml-4 text-5xl'>Chennai Super Kings</h1>
         </div>
     
       {/* Right side - Navigation */}
-        <div className='flex gap-10 text-3xl inria-sans'>
-          <NavLink className={({ isActive }) => isActive ? "text-blue-600 font-medium" : "text-gray-600 hover:text-blue-500"} to='/home'>Home</NavLink>
-          <NavLink className={({ isActive }) => isActive ? "text-blue-600 font-medium" : "text-gray-600 hover:text-blue-500"} to='/team'>Team</NavLink>
-          <NavLink className={({ isActive }) => isActive ? "text-blue-600 font-medium" : "text-gray-600 hover:text-blue-500"} to='/gallery'>Gallery</NavLink>
-          <NavLink className={({ isActive }) => isActive ? "text-blue-600 font-medium" : "text-gray-600 hover:text-blue-500"} to='/news'>News</NavLink>
+        <div className='flex gap-10 text-3xl comfortaa-light'>
+          <NavLink className={({ isActive }) => isActive ? "text-yellow-400 bg-red-100 rounded-full p-4" : "text-gray-600 hover:text-blue-500 p-4"} to='/home'>Home</NavLink>
+          <NavLink className={({ isActive }) => isActive ? "text-yellow-400 bg-red-100 rounded-full p-4" : "text-gray-600 hover:text-blue-500 p-4"} to='/team'>Team</NavLink>
+          <NavLink className={({ isActive }) => isActive ? "text-yellow-400 bg-red-100 rounded-full p-4" : "text-gray-600 hover:text-blue-500 p-4"} to='/gallery'>Gallery</NavLink>
+          <NavLink className={({ isActive }) => isActive ? "text-yellow-400 bg-red-100 rounded-full p-4" : "text-gray-600 hover:text-blue-500 p-4"} to='/news'>News</NavLink>
         </div>
 
     </div>
